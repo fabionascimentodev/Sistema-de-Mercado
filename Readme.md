@@ -1,1 +1,1 @@
-para Inicia tem que abri o terminal na compra!
+para inicia uma compra tem que esta na exteção compra.py e iniciar o terminal
