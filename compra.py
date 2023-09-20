@@ -17,7 +17,7 @@ def compra():
     while deseja_continuar == 's':
         numero = int(input('\nDigite um número para o item desejado: '))
 
-        if numero < 1 or numero >= len(catalogo.catalogo_produtos):
+        if numero < 0 or numero >= len(catalogo.catalogo_produtos):
             print('Número inválido! Retornando...\n')
             voltar_ao_menu()
         else:
